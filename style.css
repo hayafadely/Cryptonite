@@ -1,0 +1,103 @@
+body,
+html {
+  height: 100%;
+}
+.spinner-border {
+  text-align: center;
+}
+
+body {
+  /* The image used */
+  background-image: url("assets/img/back-ground.jpg");
+
+  /* Full height */
+  height: 100%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.logo {
+  width: 150px;
+  height: auto;
+  padding: 1px;
+  margin: 1px;
+}
+#child {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 5%;
+}
+
+.child {
+  margin-top: 10px;
+}
+.child,
+.canvasjs-chart-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  min-width: 600px;
+}
+.loading {
+  margin-top: 100%;
+}
+#root {
+  position: relative !important;
+  min-height: 100vh;
+  padding: 0 0;
+}
+.loading-price {
+  padding-top: 5px;
+}
+#space-child {
+  padding-bottom: 2.5rem;
+}
+.card {
+  margin: 5px;
+  height: 250px;
+}
+.custom-switch {
+  padding-left: 0 !important;
+}
+.card-title {
+  display: inline-block !important;
+  padding: 0% !important;
+}
+
+img {
+  width: 20px;
+}
+li {
+  margin: 4px;
+}
+.custom-control-input {
+  display: inline-block !important;
+  float: right;
+}
+.custom-control-label {
+  display: inline-block !important;
+  float: right;
+}
+.my-paragraph {
+  position: absolute;
+  padding-top: 4px;
+}
+.row {
+  position: relative !important;
+}
+#footer,
+.footer {
+  position: absolute !important;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  height: 2.5rem; /* Footer height */
+  padding: 0 0;
+  margin: 0 0;
+}
